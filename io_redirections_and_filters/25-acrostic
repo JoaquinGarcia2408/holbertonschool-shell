@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(cat alphanumeric) | awk '{ print substr($0, 0, 5) }' abcde
+echo "$(cut -c 1 | tr -d '\n')"
